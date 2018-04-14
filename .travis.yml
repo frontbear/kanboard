@@ -10,13 +10,9 @@ sudo: false
 php:
   - 7.2
   - 7.1
-  - 7.0
-  - 5.6
 
 env:
-  - DB=sqlite
-  - DB=postgres
-  - DB=percona
+  - DB=mysql
 
 matrix:
   fast_finish: true
